@@ -1,0 +1,99 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(221, 229, 244);
+    background: linear-gradient( 0deg, rgba(221, 229, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-g {
+    background-image: url(/assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ket {
+    position: relative;
+    animation: example 5s infinite;
+}
+
+@keyframes example {
+    0% {
+        top: 0px;
+        opacity: 0%;
+    }
+    25% {
+        top: 0px;
+    }
+    50% {
+        top: -30px;
+        transition: 2s;
+    }
+    75% {
+        top: 30px;
+        transition: 2s;
+        opacity: 100%;
+    }
+    100% {
+        top: 0px;
+        opacity: 0%;
+    }
+}
+
+.en {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.th {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+}
+
+.th-r {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+}
+
+.y {
+    height: 100vh;
+}
+
+.box-host {
+    background: rgb(229, 54, 37);
+    background: linear-gradient( 90deg, rgba(229, 54, 37, 1) 30%, rgba(207, 47, 39, 1) 65%, rgba(177, 38, 41, 1) 100%);
+}
+
+.box {
+    margin-top: 15px;
+}
+
+.box-footer {
+    background-color: #ab2529;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.text-color {
+    color: #ab2529;
+}
+
+.text-color-data {
+    color: #525457;
+}
+
+.btn-facebook {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    border-radius: 5px;
+}
+
+.btn-line {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #00b900;
+    border-color: #00b900;
+    border-radius: 5px;
+}
