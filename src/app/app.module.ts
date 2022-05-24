@@ -12,13 +12,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 
 registerLocaleData(en);
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -29,9 +29,10 @@ registerLocaleData(en);
     //AntDesign Module
     NzButtonModule,
     NgbModule,
-
+    NzInputModule,
+    NzIconModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
