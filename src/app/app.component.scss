@@ -3,6 +3,7 @@
     height: 100vh;
     background: rgb(221, 229, 244);
     background: linear-gradient( 0deg, rgba(221, 229, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    font-family: "Poppins", "Prompt", sans-serif;
 }
 
 .bg-g {
@@ -40,21 +41,6 @@
     }
 }
 
-.en {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-}
-
-.th {
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-}
-
-.th-r {
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-}
-
 .y {
     height: 100vh;
 }
@@ -69,13 +55,13 @@
 }
 
 .box-footer {
-    background-color: #ab2529;
+    background-color: var(--main-color);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
 .text-color {
-    color: #ab2529;
+    color: var(--main-color);
 }
 
 .text-color-data {
